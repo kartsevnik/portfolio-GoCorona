@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>GoCorona</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20231025155605">
+	<link rel="shortcut icon" href="img/icons/logo.svg">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js?_v=20231025155605"></script>
+
+</head>
+
+<body>
+	<div class="wrapper">
+
+
+		<main class="page">
+
+			<div class="main-block">
+
+				<header class="header">
+					<div class="header__container">
+						<div class="header__menu menu">
+
+							<nav class="menu__body">
+								<div class="menu__logo logo">
+									<div class="logo__img"><a href="" class="logo__picture"><img src="img/icons/logo.svg" alt=""></a>
+									</div>
+									<div class="logo__text"><a href="">Go<span class="color_pink">Corona</span></a></div>
+								</div>
+								<ul class="menu__list">
+									<li class="menu__item"><a href="" class="menu__link">home</a></li>
+									<li class="menu__item"><a href="#features" class="menu__link">features</a></li>
+									<li class="menu__item"><a href="#support" class="menu__link">support</a></li>
+									<li class="menu__item"><a href="#contact-us" class="menu__link">contact us</a></li>
+								</ul>
+
+								<button type="submit" class="menu__button button blob-btn">download<span class="blob-btn__inner">
+
+										<span class="blob-btn__blobs">
+											<span class="blob-btn__blob"></span>
+											<span class="blob-btn__blob"></span>
+											<span class="blob-btn__blob"></span>
+											<span class="blob-btn__blob"></span>
+										</span>
+									</span></button>
+								<button type="button" class="menu__icon icon-menu"><span></span></button>
+							</nav>
+						</div>
+					</div>
+					<!-- <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+		<defs>
+			<filter id="goo">
+				<feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10"></feGaussianBlur>
+				<feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 21 -7" result="goo">
+				</feColorMatrix>
+				<feBlend in2="goo" in="SourceGraphic" result="mix"></feBlend>
+			</filter>
+		</defs>
+	</svg> -->
+				</header>
+				<div class="main-block__container">
+					<div class="main-block__text text-block">
+						<div class="text-block__title">Take care of yours family’s
+							<span class="color_blue">health.</span>
+						</div>
+						<div class="text-block__subtitle">All in one destination for COVID-19 health queries. Consult
+							10,000+ health workers about your concerns.</div>
+						<button type="submit" class="text-block__button button blob-btn blob-btn_pink">GET STARTED
+							<span class="blob-btn__inner">
+								<span class="blob-btn__blobs">
+									<span class="blob-btn__blob"></span>
+									<span class="blob-btn__blob"></span>
+									<span class="blob-btn__blob"></span>
+									<span class="blob-btn__blob"></span>
+								</span>
+						</button>
+					</div>
+					<div class="main-block__img"><img src="img/background/main.svg" alt="doctor and pazient"></div>
+				</div>
+				<div class="watch-video">
+					<div class="watch-video__container">
+						<button type="submit" class="watch-video__button" id="firstVideoBtn"></button>
+						<div class="watch-video__text">
+							<div class="watch-video__title">Stay safe with GoCorona</div>
+							<div class="watch-video__subtitle">Watch Video</div>
+						</div>
+					</div>
+				</div>
+				<iframe class="firstVideo" id="firstVideo" width="560" height="315" src="https://www.youtube.com/embed/w5HvxsOo00E?si=LEz6-VNnl20uF5Fp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			</div>
+
+
+
+			<div class="features" id="features">
+				<div class="features__container">
+					<div class="features__signUp">
+						<picture><source srcset="img/sign-up-card.webp" type="image/webp"><img src="img/sign-up-card.jpg" alt="presentaition of mobile version"></picture>
+						<span class="background-element__features"></span>
+					</div>
+					<div class="features__text text-block">
+						<div class="text-block__title">Stay safe with Go<span class="color_pink">Corona.</span>
+						</div>
+						<div class="text-block__subtitle">24x7 Support and user friendly mobile platform to bring
+							healthcare to your fingertips. Signup and be a part of the new health culture.</div>
+						<button type="submit" class="text-block__button button blob-btn blob-btn_pink">Features<span class="blob-btn__inner">
+								<span class="blob-btn__blobs">
+									<span class="blob-btn__blob"></span>
+									<span class="blob-btn__blob"></span>
+									<span class="blob-btn__blob"></span>
+									<span class="blob-btn__blob"></span>
+								</span></button>
+					</div>
+				</div>
+			</div>
+
+			<div class="experts" id="support">
+				<div class="experts__container">
+
+					<div class="experts__numbers numbers-statistic">
+						<span class="background-element__statistic"></span>
+						<div class="statistic">
+							<div class="statistic__body" id="counter">
+								<div class="numbers-statistic__users">
+									<div data-num="2" class="statistic__number statistic__number_m">0</div>
+									<div class="statistic__text">users</div>
+								</div>
+								<div class="numbers-statistic__countries">
+									<div data-num="78" class="statistic__number">0</div>
+									<div class="statistic__text">countries</div>
+								</div>
+								<div class="numbers-statistic__experts">
+									<div data-num="300" class="statistic__number">0</div>
+									<div class="statistic__text">medical experts</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="experts__block block-experts">
+						<div class="block-experts__text text-block">
+							<div class="text-block__title">Talk to <span class="color_blue">experts.</span></div>
+							<div class="text-block__subtitle">Book appointments or submit queries into thousands of
+								forums
+								concerning health issues and prevention against noval Corona Virus.</div>
+							<button type="submit" class="text-block__button button blob-btn">Support
+								<span class="blob-btn__inner">
+									<span class="blob-btn__blobs">
+										<span class="blob-btn__blob"></span>
+										<span class="blob-btn__blob"></span>
+										<span class="blob-btn__blob"></span>
+										<span class="blob-btn__blob"></span>
+									</span></button>
+						</div>
+						<div class="block-experts__img" id="secondVideoBtn">
+							<img class="block-experts__picture" src="img/background/2_and_health.svg" alt="two doctors">
+						</div>
+					</div>
+					<iframe class="secondVideo" id="secondVideo" width="560" height="315" src="https://www.youtube.com/embed/X94PusnPUv8?si=XvHDK9xaBcTtlfYC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+				</div>
+
+			</div>
+
+			<div class="healthcare">
+				<div class="healthcare__container">
+					<div class="healthcare__title text-block">
+						<div class="text-block__title"><span class="color_pink">Healthcare</span> at your Fingertips.
+						</div>
+						<div class="text-block__subtitle text-block__subtitle_healthcare">Bringing premium healthcare
+							features to your fingertips. User
+							friendly mobile platform to bring healthcare to your fingertips. Signup and be a part of the
+							new health culture.</div>
+					</div>
+					<div class="healthcare__cards cards-healthcare">
+						<div class="cards-healthcare__symptom card-healthcare">
+							<div class="card-healthcare__ico"><img src="img/icons/man.svg" alt="man"></div>
+							<div class="card-healthcare__title">Symptom Checker</div>
+							<div class="card-healthcare__subtitle">Check if you are infected by COVID-19 with our
+								Symptom Checker</div>
+						</div>
+
+						<div class="cards-healthcare__support card-healthcare">
+							<div class="card-healthcare__ico"><img src="img/icons/doctor.svg" alt="man"></div>
+							<div class="card-healthcare__title">24x7 Medical support</div>
+							<div class="card-healthcare__subtitle">Consult with 10,000+ health workers about your
+								concerns.</div>
+						</div>
+
+						<div class="cards-healthcare__conditions card-healthcare">
+							<div class="card-healthcare__ico"><img src="img/icons/health.svg" alt="man"></div>
+							<div class="card-healthcare__title">Conditions</div>
+							<div class="card-healthcare__subtitle">Bringing premium healthcare features to your
+								fingertips.</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="links" id="contact-us">
+				<div class="links__container">
+					<div class="links__google"><a href="https://play.google.com/"><picture><source srcset="img/icons/google_link.webp" type="image/webp"><img src="img/icons/google_link.jpg" alt=""></picture></a></div>
+					<div class="links__apple"><a href="https://www.apple.com"><picture><source srcset="img/icons/apple_link.webp" type="image/webp"><img src="img/icons/apple_link.jpg" alt=""></picture></a></div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+			</div>
+		</footer>
+	</div>
+	<!-- 
+<div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+			</div>
+		</div>
+	</div>
+</div>
+ -->
+
+	<script type="text" src="js/files/countUp.min.js?_v=20231025155605"></script>
+	<script src="js/app.min.js?_v=20231025155605"></script>
+
+</body>
+
+</html>
